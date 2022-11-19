@@ -10,7 +10,7 @@ function getMovie(movie)
     // Objekt för att hantera AJAX
 var omdbAPI = new XMLHttpRequest();
 // Den URL vi ska använda oss av (obs. att denna har förvalt "the revenant")
-var omdbURL = `http://www.omdbapi.com/?t=${movie}&type=movie&apikey=41059430`;
+var omdbURL = `https://www.omdbapi.com/?t=${movie}&type=movie&apikey=41059430`;
   //"http://www.omdbapi.com/?t=the%20revenant&type=movie&apikey=41059430";
 // Vad vill vi göra när vi fått ett svar?
 omdbAPI.addEventListener("load", function () {
